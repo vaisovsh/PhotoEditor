@@ -10,7 +10,7 @@ sealed interface ViewData {
 
     data class TextData(
         val st:String,
-        val defTextSize:Int=0
+
     ):ViewData
 
 }
